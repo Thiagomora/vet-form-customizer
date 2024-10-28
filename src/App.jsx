@@ -46,8 +46,8 @@ function App() {
 
   return (
     <div className='p-20 min-h-screen'>
-      <div className='bg-fourth p-2'/>
       <div className='bg-white shadow-md p-10 max-w-5xl mx-auto'>
+      <div className='bg-fourth p-2' />
         <DndContext collisionDetection={closestCenter} onDragEnd={handleDragEnd}>
           <h1 className='text-2xl text-fifth font-bold mb-4'>Edit your form!</h1>
           <input
